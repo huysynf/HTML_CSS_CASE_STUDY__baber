@@ -53,6 +53,11 @@ html {
     background-position: cover;
 }
 
+.text-gradient {
+    background: linear-gradient(to right, #aaa, #d63384);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .header-topbar {
     display: grid;
     grid-template-columns: 20% 60% 20%;
@@ -167,6 +172,9 @@ html {
     font-family: "Merriweather", serif !important;
     font-family: "Silkscreen", "cursive" !important;
     color: var(--bs-pink) !important;
+    background: linear-gradient(to right, #d63384, #aaa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .header-content__des {
@@ -280,6 +288,9 @@ html {
     font-weight: bold;
     font-size: 3em;
     padding: 20px;
+    background: linear-gradient(to top, red, blue);
+    -webkit-background-clip: text;
+    color: transparent;
 }
 .main-product-wrap {
     display: grid;
@@ -384,12 +395,12 @@ html {
     position: fixed;
     z-index: 1000;
     height: 100vh;
-    background-color: var(--bs-gray);
     right: 0;
     opacity: 0;
     visibility: hidden;
     transition: all 1s ease;
     width: 0;
+    background: linear-gradient(to left, transparent, #aaa);
 }
 
 .show-menu {
