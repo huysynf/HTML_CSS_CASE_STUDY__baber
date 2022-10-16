@@ -58,6 +58,18 @@ html {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.text-gradient__toleft-black {
+    background: linear-gradient(to right, #aaa, var(--bs-dark));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-gradient__toleft-red {
+    background: linear-gradient(to right, #aaa, var(--bs-danger));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .header-topbar {
     display: grid;
     grid-template-columns: 20% 60% 20%;
